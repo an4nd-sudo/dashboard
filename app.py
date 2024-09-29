@@ -7,7 +7,7 @@ st.set_page_config(layout='wide')
 
 st.title('India')
 
-df = pd.read_csv('/workspaces/dashboard/xl1.csv')
+df = pd.read_csv('xl1.csv')
 #with st.expander('show data'):
  #   st.dataframe(df)
 
